@@ -1,0 +1,41 @@
+name: new_app
+description: "Football Matches App - отображение информации о футбольных матчах"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # State management
+  provider: ^6.1.2
+  
+  # HTTP requests
+  http: ^1.2.0
+  
+  # Local storage for caching and auth
+  shared_preferences: ^2.2.2
+  
+  # Image caching
+  cached_network_image: ^3.3.1
+  
+  # Date formatting
+  intl: ^0.19.0
+  
+  # Network connectivity check
+  connectivity_plus: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
